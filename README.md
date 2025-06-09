@@ -8,11 +8,11 @@ The Survey Tracker app connects to relevant Excel files stored in Microsoft OneD
 
 FOLDERS
 
-/api         ← API helpers (Graph + Power BI REST calls later)
-/components  ← Reusable UI components
-/hooks       ← Custom hooks for data fetching or date calcs
-/utils       ← Date utils, constants, helper functions
-/data        ← (for now) mock JSON files
+/api: API helpers (Graph + Power BI REST calls later)
+/components: UI components
+/hooks: custom hooks for data fetching or date calculations
+/utils: date utils, constants, helper functions
+/data: source testing (json, connection to proxy...)
 
 ## DEFINITION
 
