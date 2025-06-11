@@ -14,6 +14,13 @@ FOLDERS
 /utils: date utils, constants, helper functions
 /data: source testing (json, connection to proxy...)
 
+## PAGES
+
+Toa add:
+
+Calendar/list by earliest date view
+Form to add/edit survey status
+
 ## DEFINITION
 
 All rights reserved. Do not use without permission. 

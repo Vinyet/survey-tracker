@@ -53,12 +53,12 @@ const Programas = () => {
         <div className="programs-header">
           <h3>Programas</h3>
           <div className="programs-filter">
-            <label>Filtrar por presencialidad:&nbsp;</label>
+            <label>Filtrar por presencialidad:</label>
             <select value={presencialidadFilter} onChange={e => setPresencialidadFilter(e.target.value)}>
               <option value="">Todas</option>
-              <option value="FT">FT</option>
-              <option value="PT">PT</option>
-              <option value="HL">HL</option>
+              <option value="FT">Full-Time</option>
+              <option value="PT">Part-Time</option>
+              <option value="HL">Global</option>
             </select>
           </div>
         </div>
