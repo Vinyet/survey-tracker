@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import theme from './styles/theme';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import LoginButton from './components/LoginButton';
 import Programas from './pages/Programas';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -12,6 +13,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <Header />
+        <LoginButton />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/programas" element={<Programas />} />

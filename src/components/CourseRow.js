@@ -18,7 +18,6 @@ function CourseRow({ course }) {
 export default CourseRow;
 
 
-
 /*
   OTHER
 
