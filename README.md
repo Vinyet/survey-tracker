@@ -4,23 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## DEFINITION
 
-The Survey Tracker app connects to relevant Excel files stored in Microsoft OneDrive to document and track the status of academic surveys. It can also connect to Power BI to retrieve data on which surveys are currently active and how many responses they have received.
+The Survey Tracker app connects to Excel files stored in Sharepoint via a registered Microsoft Azure application. The app has both read and write permissions. Its goal is to document and track the status of academic surveys: launch calendar, download calendar, ETL process, and Power BI publication status.
 
-FOLDERS
+The next step is to connect the Survey Tracker app to our Power BI Workspace via API to retrieve data on whether a given survey is currently available on the Power BI app that's available to stakeholders.
 
-/api: API helpers (Graph + Power BI REST calls later)
-/components: UI components
-/hooks: custom hooks for data fetching or date calculations
-/utils: date utils, constants, helper functions
-/data: source testing (json, connection to proxy...)
+## OWNERSHIP
 
-## PAGES
-
-Toa add:
-
-Calendar/list by earliest date view
-Form to add/edit survey status
-
-## DEFINITION
-
-All rights reserved. Do not use without permission. 
+&copy; Vinyet Escribano, 2025. All rights reserved. Usage is strictly limited to members of the EAE Barcelona Learning Analytics team.
